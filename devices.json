@@ -1,0 +1,119 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+        "count": {
+            "type": "number"
+        },
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "role": {
+                        "type": "string"
+                    },
+                    "household_id": {
+                        "type": "number"
+                    },
+                    "settings": {
+                        "type": "array"
+                    },
+                    "description": {
+                        "type": "NULL"
+                    },
+                    "is_active": {
+                        "type": "boolean"
+                    },
+                    "is_synced": {
+                        "type": "boolean"
+                    },
+                    "meter_settings": {
+                        "type": "array"
+                    },
+                    "id": {
+                        "type": "number"
+                    },
+                    "username": {
+                        "type": "string"
+                    },
+                    "group_id": {
+                        "type": "number"
+                    },
+                    "created_at": {
+                        "type": "string"
+                    },
+                    "updated_at": {
+                        "type": "string"
+                    },
+                    "devices": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "device_id": {
+                                    "type": "number"
+                                },
+                                "guid": {
+                                    "type": "string"
+                                },
+                                "id": {
+                                    "type": "number"
+                                },
+                                "created_at": {
+                                    "type": "string"
+                                },
+                                "updated_at": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "device_id",
+                                "guid",
+                                "id",
+                                "created_at",
+                                "updated_at"
+                            ]
+                        }
+                    },
+                    "last_active": {
+                        "type": "NULL"
+                    },
+                    "last_app_version": {
+                        "type": "NULL"
+                    },
+                    "last_device_id": {
+                        "type": "NULL"
+                    },
+                    "is_online": {
+                        "type": "boolean"
+                    }
+                },
+                "required": [
+                    "role",
+                    "household_id",
+                    "settings",
+                    "description",
+                    "is_active",
+                    "is_synced",
+                    "meter_settings",
+                    "id",
+                    "username",
+                    "group_id",
+                    "created_at",
+                    "updated_at",
+                    "devices",
+                    "last_active",
+                    "last_app_version",
+                    "last_device_id",
+                    "is_online"
+                ]
+            }
+        }
+    },
+    "required": [
+        "count",
+        "items"
+    ]
+}
